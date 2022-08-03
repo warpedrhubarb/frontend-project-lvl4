@@ -1,0 +1,25 @@
+{
+  "name": "frontend-project-lvl4",
+  "version": "0.0.1",
+  "description": "[![Actions Status](https://github.com/warpedrhubarb/frontend-project-lvl4/workflows/hexlet-check/badge.svg)](https://github.com/warpedrhubarb/frontend-project-lvl4/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpedrhubarb/frontend-project-lvl4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warpedrhubarb/frontend-project-lvl4/issues"
+  },
+  "homepage": "https://github.com/warpedrhubarb/frontend-project-lvl4#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  },
+  "scripts": {
+    "start": "npx start-server -s ./frontend/build"
+  }
+}
